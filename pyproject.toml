@@ -12,9 +12,12 @@ line-length = 120
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["D", "COM812"]
+ignore = ["COM812", "EM101"]
 #extend-select = ["E501"]
 #select = ["ALL"]
 
 [tool.ruff.lint.per-file-ignores]
-"main_test.py" = ["PLR2004", "S101"]
+"test_main.py" = ["PLR2004", "S101"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
