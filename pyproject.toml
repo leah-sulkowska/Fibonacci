@@ -3,6 +3,10 @@ name = "fibonacci"
 version = "1.0"
 dependencies = []
 
+[tool.mypy]
+strict = true
+files = ["."]
+
 [tool.ruff]
 line-length = 120
 
