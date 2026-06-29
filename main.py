@@ -4,7 +4,8 @@ def fib(n):
     elif n == 0:
         x = 1
     else:
-        x = fib(n-1) + fib(n-2)
+        x = fib(n - 1) + fib(n - 2)
     return x
 
-#print(fib(int(input("Number in sequence: "))))
+
+# print(fib(int(input("Number in sequence: "))))

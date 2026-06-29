@@ -1,9 +1,11 @@
 from main import fib
 import pytest
 
+
 def test_fib_one():
     assert fib(1) == 1
     assert fib(0) == 1
+
 
 def test_fib_other():
     assert fib(4) == 5
@@ -11,5 +13,5 @@ def test_fib_other():
     assert fib(6) == 13
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pytest.main()
