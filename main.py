@@ -8,5 +8,3 @@ def fib(n):
     return x
 
 #print(fib(int(input("Number in sequence: "))))
-
-
